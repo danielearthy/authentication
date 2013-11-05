@@ -1,6 +1,5 @@
 <div class="container">
   <h1>Sign In</h1>
-
   <% if @error %>
     <div class="errors"><%= @error %></div>
   <% end %>
@@ -13,5 +12,6 @@
     <br>
     <div class="submit"><input type="submit" value="Sign In"></div>
   </form>
+    <p> No a user?<a href = "/users/new">Sign Up!</a></p>
 
 </div>
